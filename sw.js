@@ -1,5 +1,5 @@
 /* Simone Mahler Poland Plan — gated build service worker */
-const CACHE = 'sm-poland-gate-v2';
+const CACHE = 'sm-poland-gate-v3';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./icon.svg','./icon-maskable.svg'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
