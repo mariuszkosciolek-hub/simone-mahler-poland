@@ -1,0 +1,27 @@
+{
+  "name": "Simone Mahler Poland Plan",
+  "short_name": "SM Poland Plan",
+  "description": "Simone Mahler in Poland — B2B Client Profile & 3-Year Business Development Plan, prepared by Selective Institute.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f7f3ec",
+  "theme_color": "#3b332b",
+  "lang": "en",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "maskable"
+    }
+  ]
+}
