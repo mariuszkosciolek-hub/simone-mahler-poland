@@ -1,5 +1,5 @@
 /* Simone Mahler Poland Plan — gated build service worker */
-const CACHE = 'sm-poland-gate-mqwi2d52';
+const CACHE = 'sm-poland-gate-mqwipnl1';
 /* Only static assets are pre-cached. index.html (the encrypted gate) is fetched
    network-first so a new build / new credentials always load when online. */
 const ASSETS = ['./manifest.webmanifest','./icon.svg','./icon-maskable.svg'];
